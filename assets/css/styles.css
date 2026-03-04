@@ -13,7 +13,9 @@ nav a {
   color: #82735c;
   font-size: 20px;
 }
-
+nav {
+  margin-bottom: 30px;  
+}
 h1, h2 {
   text-align: center; 
 }
@@ -31,8 +33,8 @@ p {
 }
 
 .image-row img {
-  width: 200px;   
-  height: 130px;  
+  width: 300px;   
+  height: 100px;  
   object-fit: cover;
   display: block;
   margin-bottom: 10px;
@@ -45,8 +47,8 @@ p {
 }
 
 .image-row-center img {
-  width: 200px;
-  height: 130px;
+  width: 300px;
+  height: 190px;
   object-fit: cover;
 }
 
@@ -57,3 +59,16 @@ p {
   margin-top: 20px;
   font-size: 18px;
 }
+
+
+
+.hero-image {
+  width: 600px;       
+  height: 350px;      
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;  
+  border-radius: 8px;  
+}
+
+

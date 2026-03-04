@@ -1,85 +1,18 @@
 body {
   background-color: #d1f5be; /* Tea Green */
   color: #82735c;            /* Olive wood */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-}
-
-header, nav, main, footer {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 1.5rem 1rem;
-}
-
-header h1, header h2 {
-  margin-bottom: 0.25rem;
-}
-
-nav {
-  display: flex;
-  gap: 1rem;
-  border-bottom: 1px solid #82735c;
-  padding-bottom: 0.75rem;
-  margin-bottom: 1rem;
+  font-family: Arial, sans-serif;
 }
 
 nav a {
-  text-decoration: none;
-  color: #82735c;
-  font-weight: 600;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Content */
-h1, h2, h3 {
+  margin-right: 10px;
   color: #82735c;
 }
 
-p {
-  margin-bottom: 0.75rem;
-}
-
-/* Image grid: same ratio for all images */
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
-  margin: 1rem 0 2rem;
-}
-
-.image-card {
-  background-color: rgba(130, 115, 92, 0.05);
-  border-radius: 8px;
-  overflow: hidden;
-  padding: 0.5rem;
-}
-
-.image-card figure {
-  margin: 0;
-}
-
-/* Force same visual ratio & alignment */
-.image-card img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+img {
+  width: 300px;      /* same width */
+  height: 200px;     /* same height (same ratio) */
+  object-fit: cover; /* crop nicely */
   display: block;
-  border-radius: 4px;
-}
-
-.image-card figcaption {
-  font-size: 0.9rem;
-  margin-top: 0.4rem;
-}
-
-/* Footer */
-footer {
-  border-top: 1px solid #82735c;
-  margin-top: 2rem;
-  font-size: 0.85rem;
+  margin-bottom: 10px;
 }

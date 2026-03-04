@@ -9,8 +9,9 @@ body {
 }
 
 nav a {
+  text-decoration: underline;
   margin-right: 10px;
-  color: #82735c;
+  color: #3b352c;
   font-size: 20px;
 }
 nav {
@@ -41,6 +42,7 @@ p {
   margin-bottom: 0; 
 }
 
+
 .image-row-center {
   display: flex;
   justify-content: center;
@@ -51,6 +53,7 @@ p {
   width: 220px;    
   height: 150px;    
   object-fit: cover;
+}
 
 .image-row-center {
   display: flex;
@@ -58,7 +61,7 @@ p {
   gap: 20px;
 }
 
-.image-row-center img {
+.image-row-center .seperate-image {
   width: 220px;     
   height: 150px;    
   object-fit: cover;
@@ -71,16 +74,17 @@ p {
   margin-top: 20px;
   font-size: 18px;
 }
+.previous-next a {
+  text-decoration: underline;
+  color: #3b3224;
+  margin: 0 10px;
+}
 
-
-
-.Intro-Image {
-  width: 600px;       
-  height: 350px;      
+.image-row-center .Intro-Image {
+  margin-bottom: 20px;
+  width: 300px;     
+  height: 300px;    
   object-fit: cover;
-  display: block;
-  margin: 20px auto;  
-  border-radius: 8px;  
 }
 
 

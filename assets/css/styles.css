@@ -1,24 +1,59 @@
 body {
-  background-color: #d1f5be; /* Tea Green */
-  color: #82735c;            /* Olive wood */
+  background-color: #d1f5be;
+  color: #82735c;
   font-family: Arial, sans-serif;
+  font-size: 20px; 
+  max-width: 900px; 
+  margin: 0 auto;  
+  padding: 20px;
 }
 
 nav a {
   margin-right: 10px;
   color: #82735c;
+  font-size: 20px;
 }
 
-img {
-  width: 30px;     
-  height: 30px;     
-  object-fit: cover; 
+h1, h2 {
+  text-align: center; 
+}
+
+p {
+  text-align: center; 
+  line-height: 1.5;
+}
+
+
+.image-row {
+  display: flex;
+  justify-content: space-around; 
+  margin-bottom: 20px;
+}
+
+.image-row img {
+  width: 200px;   
+  height: 130px;  
+  object-fit: cover;
   display: block;
   margin-bottom: 10px;
 }
+
+.image-row-center {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;              
+}
+
+.image-row-center img {
+  width: 200px;
+  height: 130px;
+  object-fit: cover;
+}
+
 .previous-next {
   text-align: center;
   padding: 10px;
   border-top: 1px solid #82735c;
   margin-top: 20px;
+  font-size: 18px;
 }

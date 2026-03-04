@@ -34,7 +34,7 @@ p {
 
 .image-row img {
   width: 300px;   
-  height: 100px;  
+  height: 190px;  
   object-fit: cover;
   display: block;
   margin-bottom: 10px;
@@ -42,13 +42,13 @@ p {
 
 .image-row-center {
   display: flex;
-  justify-content: center; 
-  gap: 20px;              
+  justify-content: center;
+  gap: 20px;
 }
 
 .image-row-center img {
-  width: 300px;
-  height: 190px;
+  width: 220px;     
+  height: 150px;    
   object-fit: cover;
 }
 
